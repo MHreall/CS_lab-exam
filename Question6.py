@@ -2,13 +2,6 @@ import pygame
 from OpenGL.GL import *
 
 def draw_line(x1, y1, x2, y2):
-    """
-    Draws a line between two points (x1, y1) and (x2, y2) using OpenGL.
-    :param x1: X-coordinate of the first point
-    :param y1: Y-coordinate of the first point
-    :param x2: X-coordinate of the second point
-    :param y2: Y-coordinate of the second point
-    """
     glBegin(GL_LINES)
     glColor3f(1.0, 0.0, 0.0)  
     glVertex2f(x1, y1)        
